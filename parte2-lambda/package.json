@@ -1,0 +1,30 @@
+{
+  "name": "nxt-lambda-todo",
+  "version": "1.0.0",
+  "description": "AWS Lambda function for managing to-do items in DynamoDB",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist",
+    "package": "npm run build && npm run zip",
+    "zip": "cd dist && zip -r ../function.zip index.js && cd .. && zip -ur function.zip node_modules"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "dynamodb",
+    "typescript",
+    "serverless"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.490.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.158",
+    "@types/node": "^20.19.25",
+    "typescript": "^5.5.3"
+  }
+}
