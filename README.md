@@ -3,9 +3,7 @@
 Proyecto completo para la prueba técnica de Desarrollo Full Stack, dividido en 3 partes progresivas que demuestran conocimientos de Next.js, TypeScript, AWS Lambda, DynamoDB y buenas prácticas de desarrollo.
 
 **Candidato:** Jherry Paolo Visalot Giron  
-**Fecha de inicio:** 11 de noviembre de 2025  
-**Fecha máxima de entrega:** 18 de noviembre de 2025  
-**Contacto:** sebastian.acosta@nxtabogados.com
+
 
 ## 📋 Estructura del Proyecto
 
@@ -215,11 +213,6 @@ El proyecto está configurado para ejecución local. Para un despliegue en AWS, 
 - Frontend: Vercel, Netlify o AWS Amplify
 - Backend: AWS Elastic Beanstalk, ECS o Lambda (con adaptaciones)
 - DynamoDB: Ya configurado y en uso
-
-## 📞 Contacto
-
-Para dudas o consultas sobre este proyecto:
-- **Email:** sebastian.acosta@nxtabogados.com
 
 ## 📄 Licencia
 
